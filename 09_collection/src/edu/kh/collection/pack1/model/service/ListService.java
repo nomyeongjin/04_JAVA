@@ -151,6 +151,10 @@ public class ListService {
 		
 		// 7. boolean contains(E e) 
 		// List 내부에 e와 같은 요소가 있으면 true, 없으면 false
+		if(strList.contains("보쌈")) {
+			System.out.println("00000");
+		}
+		
 		System.out.println(strList.contains("보쌈"));
 		System.out.println(strList.contains("막국수"));
 		
